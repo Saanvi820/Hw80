@@ -1,0 +1,19 @@
+body{
+background-color: rgb(255, 255, 255);
+}
+h1{
+text-align: center;
+color:rgb(0, 0, 0);
+}
+#container {
+    display: table;
+}
+.column {
+    float: left;
+    width: 600%;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
